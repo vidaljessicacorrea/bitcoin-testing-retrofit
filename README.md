@@ -202,13 +202,19 @@ compressed file format: zip for windows or tar.gz for linux or macOS)
 4. Inside bitcoin-0.X.X/bin/ create an empty directory mydata2
 5. Run inside bitcoin-0.X.X/bin/ the following commands in 2 separate consoles:
 Console 1
+
 start Node A:
-```./bitcoin-qt -regtest -rpcuser=nodeA -rpcpassword=secretpassword1 -
+
+```
+./bitcoin-qt -regtest -rpcuser=nodeA -rpcpassword=secretpassword1 -
 rpcport=18443 -port=18444 -connect=127.0.0.1:28444 -datadir=./mydata1 -
 printtoconsole -rpcallowip=0.0.0.0/0 -listen=1 -server -fallbackfee=0.0002
 ```
+
 Console 2:
+
 start Node B:
+
 ```
 ./bitcoin-qt -regtest -rpcuser=nodeB -rpcpassword=secretpassword2 -
 rpcport=28443 -port=28444 -connect=127.0.0.1:18444 -datadir=./mydata2 -
