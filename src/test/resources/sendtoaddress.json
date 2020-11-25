@@ -1,0 +1,6 @@
+{
+  "jsonrpc": "1.0",
+  "id":"curltest",
+  "method": "sendtoaddress",
+  "params": ["ADDRESS_ID_NODE_B", "AMOUNT", "donation", "seans outpost"]
+}

@@ -1,0 +1,12 @@
+{
+  "host-url": [
+    {
+      "name": "nodea",
+      "host": "http://nodeA:secretpassword1@127.0.0.1:18443"
+    },
+    {
+      "name": "nodeb",
+      "host": "http://nodeB:secretpassword2@127.0.0.1:28443"
+    }
+  ]
+}

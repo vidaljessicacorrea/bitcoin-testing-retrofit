@@ -1,0 +1,6 @@
+{
+  "jsonrpc": "1.0",
+  "id":"curltest",
+  "method": "generatetoaddress",
+  "params": ["N_BLOCK", "ADDRESS_ID_NODE_A"]
+}
